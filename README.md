@@ -38,6 +38,16 @@ Default Port = 28972
 
 RPC Port = 27982
 
+amkoin.conf
+-----------
+
+    server=1
+    listen=1
+    rpcuser=changeme
+    rpcpassword=definitelychangeme
+    rpcipallow=192.168.0.*
+
+
 Why?
 ----
 This coin is in honor of the conspiracy theory website Amerikan Konspiracy (www.amkon.net) on its sixth consecutive year of operation.
