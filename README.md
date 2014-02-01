@@ -58,4 +58,4 @@ Forked from Unobtanium 0.9.x. Special thanks to cinnamon_carter for all her help
 
 Super Special Thanks
 --------------------
-mojo, LaResistencia, FancyFree, murnut, FAQ, WITCH HUNT, Pam, Watcher-In-The-Shadows, SnowCrash, Vex, skunk, DOGFISHBOY, theindiee, eyeforalie, SCREAMMMMM, Lexion, Sowelu, KIWI, lala, Seeker13, Who, LvB, TheSyndicate, GenniferJentle and everyone else who's going to be pissed off because I didn't mention them.
+mojo, skunk, LaResistencia, FancyFree, murnut, FAQ, WITCH HUNT, Pam, Watcher-In-The-Shadows, SnowCrash, Vex, skunk, DOGFISHBOY, theindiee, eyeforalie, SCREAMMMMM, Lexion, Sowelu, KIWI, lala, Seeker13, Who, LvB, TheSyndicate, GenniferJentle and everyone else who's going to be pissed off because I didn't mention them.
