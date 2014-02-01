@@ -54,7 +54,7 @@ This coin is in honor of the conspiracy theory website Amerikan Konspiracy (www.
 
 Credits
 -------
-Forked from Unobtanium 0.9.x. Special thanks to cinnamon_carter for all her help. Kimoto's Gravity Well implementation borrowed from Franko. All other copyrights are property of their resepective owners.
+Forked from Unobtanium 0.9.x. Special thanks to cinnamon_carter for all her help. Kimoto's Gravity Well implementation borrowed from Franko. All other copyrights are property of their respective owners.
 
 Super Special Thanks
 --------------------
