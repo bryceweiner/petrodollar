@@ -24,7 +24,7 @@ Maximum coins: 23
 
 Minimum subsidy of 0.00000010 for all transactions
 
-Estimated PoW lifespan: 10-13 years
+Estimated PoW lifespan: 5 years
 
 Main Net
 --------
