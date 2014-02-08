@@ -6,7 +6,7 @@ Build instructions assume a CLEAN DEVELOPMENT ENVIRONMENT FOR COMPILING.  This i
 
 	sudo apt-get upgrade
 
-	sudo apt-get install git build-essential libssl-dev libboost-all-dev libdb-dev libdb-dev libminiupnpc-dev
+	sudo apt-get install git build-essential libssl-dev libboost-all-dev libdb-dev libdb++-dev libminiupnpc-dev
 
 	git clone http://github.com/bryceweiner/amkoin
 
