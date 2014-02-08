@@ -211,7 +211,7 @@ b) http://download.qt-project.org/official_releases/qt/5.2/5.2.0/submodules/qtto
 
 c) Open a command prompt and type:
 
-	cd\deps\qtbase-opensource-src-5.2.0
+	cd\Qt\5.2.0
 
 	configure.bat -release -opensource -confirm-license -static -make libs -no-sql-sqlite -no-opengl -qt-zlib -qt-pcre -no-icu -no-gif -qt-libpng -qt-libjpeg -no-angle -no-vcproj -no-openssl -no-dbus -no-audio-backend -no-wmf-backend -no-qml-debug
 
@@ -225,7 +225,7 @@ f) close and reopen the command prompt window so the new path will take effect.
 
 g) Type:
 
-	cd C:\deps\qttools-opensource-src-5.2.0
+	cd C:\Qt\qttools-opensource-src-5.2.0
 
 	qmake qttools.pro
 
