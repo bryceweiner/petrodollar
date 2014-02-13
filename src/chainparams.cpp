@@ -26,7 +26,7 @@ public:
         pchMessageStart[0] = 0xdd;
         pchMessageStart[1] = 0xee;
         pchMessageStart[2] = 0xaa;
-        pchMessageStart[3] = 0xff;
+        pchMessageStart[3] = 0xf0;
         nDefaultPort = 23032;
         nRPCPort = 32023;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
@@ -46,25 +46,21 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1390803952;
+        genesis.nTime    = 1392318357;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 936766;
+        genesis.nNonce   = 1184538;
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
-        //while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
-        //    if (++genesis.nNonce==0) break;
-        //    hashGenesisBlock = genesis.GetHash();
-        //}
 
-        printf("%s\n", hashGenesisBlock.ToString().c_str());
-        printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        printf("%x\n", bnProofOfWorkLimit.GetCompact());
+        printf("GenesisBlock: %s\n", hashGenesisBlock.ToString().c_str());
+        printf("MerkleRoot: %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        printf("POW: %x\n", bnProofOfWorkLimit.GetCompact());
         genesis.print();
         
         
-        assert(hashGenesisBlock == uint256("0x000003a783d14de649cc33ffda1e9477a63e21730b88fe97cba3b3ea82af81f4"));
-        assert(genesis.hashMerkleRoot == uint256("0x865858337e5c04471754b47c9e08a004eb1ed7fa8d05a61270075771b4ab3415"));
+        assert(hashGenesisBlock == uint256("0x000007842b79f1a9bac2a02e5bdc151a53390e4d6871fba1a1ae7efb415e0270"));
+        assert(genesis.hashMerkleRoot == uint256("0xcf4ca0f0bcc052d1675050b6f15a77168aaf3e522f7f218112651b9960612230"));
 
         vSeeds.push_back(CDNSSeedData("107.170.20.118", "107.170.20.118"));
 
@@ -107,7 +103,7 @@ class CTestNetParams : public CMainParams {
 public:
     CTestNetParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0xff;
+        pchMessageStart[0] = 0xf0;
         pchMessageStart[1] = 0xaa;
         pchMessageStart[2] = 0xee;
         pchMessageStart[3] = 0xdd;
@@ -116,16 +112,12 @@ public:
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1390803952;
-        genesis.nNonce = 936766;
+        genesis.nTime = 1392318357;
+        genesis.nNonce = 0;
         
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
-        //while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
-        //    if (++genesis.nNonce==0) break;
-        //   hashGenesisBlock = genesis.GetHash();
-        //}
 
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
