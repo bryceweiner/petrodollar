@@ -18,6 +18,8 @@ unsigned int pnSeed[] =
 {
     0x12345678
 };
+    bool fRegTest = GetBoolArg("-regtest", false);
+    bool fTestNet = GetBoolArg("-testnet", false);
 
 class CMainParams : public CChainParams {
 public:
@@ -49,6 +51,11 @@ public:
         genesis.nTime    = 1392318357;
         genesis.nBits    = 0x1e0fffff;
         genesis.nNonce   = 1184538;
+
+        if(fTestNet) {
+            genesis.nTime    = 1392318358;
+            genesis.nNonce   = 0;
+        }
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
@@ -58,9 +65,14 @@ public:
         printf("POW: %x\n", bnProofOfWorkLimit.GetCompact());
         genesis.print();
         
-        
-        assert(hashGenesisBlock == uint256("0x000007842b79f1a9bac2a02e5bdc151a53390e4d6871fba1a1ae7efb415e0270"));
-        assert(genesis.hashMerkleRoot == uint256("0xcf4ca0f0bcc052d1675050b6f15a77168aaf3e522f7f218112651b9960612230"));
+
+        if (fTestNet) {
+            assert(hashGenesisBlock == uint256("0x0cced840f1c580b10a8069151c2b3cc418a51973c736ab6de9bef3a5150eef03"));
+            assert(genesis.hashMerkleRoot == uint256("0xcf4ca0f0bcc052d1675050b6f15a77168aaf3e522f7f218112651b9960612230"));
+        }   else {
+            assert(hashGenesisBlock == uint256("0x000007842b79f1a9bac2a02e5bdc151a53390e4d6871fba1a1ae7efb415e0270"));
+            assert(genesis.hashMerkleRoot == uint256("0xcf4ca0f0bcc052d1675050b6f15a77168aaf3e522f7f218112651b9960612230"));
+        }     
 
         vSeeds.push_back(CDNSSeedData("107.170.20.118", "107.170.20.118"));
 
@@ -112,7 +124,7 @@ public:
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1392318357;
+        genesis.nTime = 1392318358;
         genesis.nNonce = 0;
         
         
@@ -205,8 +217,6 @@ void SelectParams(CChainParams::Network network) {
 }
 
 bool SelectParamsFromCommandLine() {
-    bool fRegTest = GetBoolArg("-regtest", false);
-    bool fTestNet = GetBoolArg("-testnet", false);
 
     if (fTestNet && fRegTest) {
         return false;
