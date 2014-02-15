@@ -147,10 +147,10 @@ OBJS= \
     obj/chainparams.o
 
 
-all: amkoind
+all: petrodollard
 
-test check: test_amkoin FORCE
-	./test_amkoin
+test check: test_petrodollar FORCE
+	./test_petrodollar
 
 #
 # LevelDB support
@@ -178,7 +178,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-amkoind: $(OBJS:obj/%=obj/%)
+petrodollard: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -190,11 +190,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_amkoin: $(TESTOBJS) $(filter-out obj/init.o obj/amkoind.o,$(OBJS:obj/%=obj/%))
+test_petrodollar: $(TESTOBJS) $(filter-out obj/init.o obj/petrodollard.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f amkoind test_amkoin
+	-rm -f petrodollard test_petrodollar
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

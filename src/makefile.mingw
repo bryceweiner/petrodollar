@@ -110,10 +110,10 @@ OBJS= \
     obj/chainparams.o
 
 
-all: amkoind.exe
+all: petrodollard.exe
 
-test check: test_amkoin.exe FORCE
-	test_amkoin.exe
+test check: test_petrodollar.exe FORCE
+	test_petrodollar.exe
 
 #
 # LevelDB support
@@ -127,7 +127,7 @@ leveldb/libleveldb.a:
 obj/%.o: %.cpp $(HEADERS)
 	$(CXX) -c $(CFLAGS) -o $@ $<
 
-amkoind.exe: $(OBJS:obj/%=obj/%)
+petrodollard.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -135,11 +135,11 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_amkoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/amkoind.o,$(OBJS:obj/%=obj/%))
+test_petrodollar.exe: $(TESTOBJS) $(filter-out obj/init.o obj/petrodollard.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework$(BOOST_SUFFIX) $(LIBS)
 
 clean:
-	rm -f amkoind.exe test_amkoin.exe
+	rm -f petrodollard.exe test_petrodollar.exe
 	rm -f obj/*
 	rm -f obj-test/*
 	cd leveldb && $(MAKE) TARGET_OS=NATIVE_WINDOWS clean && cd ..

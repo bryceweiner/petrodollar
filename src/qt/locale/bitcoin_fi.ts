@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AmKoin</source>
-        <translation>Tietoa AmKoinista</translation>
+        <source>About PetroDollar</source>
+        <translation>Tietoa PetroDollarista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AmKoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AmKoin&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;PetroDollar&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;PetroDollar&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,7 +35,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+0"/>
-        <source>The AmKoin developers</source>
+        <source>The PetroDollar developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -68,8 +68,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AmKoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat AmKoin-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
+        <source>These are your PetroDollar addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat PetroDollar-osoitteesi joihin voit vastaanottaa maksuja. Voit haluta antaa jokaiselle maksajalle omansa, että pystyt seuraamaan keneltä maksut tulevat.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,8 +83,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AmKoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat AmKoin-osoitteen</translation>
+        <source>Sign a message to prove you own a PetroDollar address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat PetroDollar-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,8 +108,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AmKoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä AmKoin-osoitteella</translation>
+        <source>Verify a message to ensure it was signed with a specified PetroDollar address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä PetroDollar-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,7 +123,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AmKoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your PetroDollar addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -276,8 +276,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-56"/>
-        <source>AmKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your amkoins from being stolen by malware infecting your computer.</source>
-        <translation>AmKoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
+        <source>PetroDollar will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your petrodollars from being stolen by malware infecting your computer.</source>
+        <translation>PetroDollar sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -361,7 +361,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Näytä AmKoinien vastaanottamiseen käytetyt osoitteet</translation>
+        <translation>Näytä PetroDollarien vastaanottamiseen käytetyt osoitteet</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -375,8 +375,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AmKoin</source>
-        <translation>Näytä tietoa AmKoin-projektista</translation>
+        <source>Show information about PetroDollar</source>
+        <translation>Näytä tietoa PetroDollar-projektista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AmKoin address</source>
-        <translation>Lähetä kolikoita AmKoin-osoitteeseen</translation>
+        <source>Send coins to a PetroDollar address</source>
+        <translation>Lähetä kolikoita PetroDollar-osoitteeseen</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AmKoin</source>
-        <translation>Muuta AmKoinin konfiguraatioasetuksia</translation>
+        <source>Modify configuration options for PetroDollar</source>
+        <translation>Muuta PetroDollarin konfiguraatioasetuksia</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AmKoin</source>
-        <translation>AmKoin</translation>
+        <source>PetroDollar</source>
+        <translation>PetroDollar</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AmKoin</source>
-        <translation>&amp;Tietoa AmKoinista</translation>
+        <source>&amp;About PetroDollar</source>
+        <translation>&amp;Tietoa PetroDollarista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -492,7 +492,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota AmKoin-ikkuna</translation>
+        <translation>Näytä tai piilota PetroDollar-ikkuna</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -501,13 +501,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AmKoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla AmKoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your PetroDollar addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla PetroDollar -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AmKoin addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä AmKoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified PetroDollar addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä PetroDollar -osoitteella</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+47"/>
-        <source>AmKoin client</source>
-        <translation>AmKoin-asiakas</translation>
+        <source>PetroDollar client</source>
+        <translation>PetroDollar-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AmKoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys AmKoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä AmKoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to PetroDollar network</source>
+        <translation><numerusform>%n aktiivinen yhteys PetroDollar-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä PetroDollar-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Osoite: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AmKoin address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta AmKoin-osoitteesta tai virheellisistä URI parametreista.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid PetroDollar address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta PetroDollar-osoitteesta tai virheellisistä URI parametreista.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AmKoin can no longer continue safely and will quit.</source>
-        <translation>Peruuttamaton virhe on tapahtunut. AmKoin ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. PetroDollar can no longer continue safely and will quit.</source>
+        <translation>Peruuttamaton virhe on tapahtunut. PetroDollar ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AmKoin address.</source>
-        <translation>Antamasi osoite &quot;%1&quot; ei ole validi AmKoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid PetroDollar address.</source>
+        <translation>Antamasi osoite &quot;%1&quot; ei ole validi PetroDollar-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Osoite: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AmKoin-Qt</source>
-        <translation>AmKoin-Qt</translation>
+        <source>PetroDollar-Qt</source>
+        <translation>PetroDollar-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AmKoin after logging in to the system.</source>
-        <translation>Käynnistä AmKoin kirjautumisen yhteydessä.</translation>
+        <source>Automatically start PetroDollar after logging in to the system.</source>
+        <translation>Käynnistä PetroDollar kirjautumisen yhteydessä.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AmKoin on system login</source>
-        <translation>&amp;Käynnistä AmKoin kirjautumisen yhteydessä</translation>
+        <source>&amp;Start PetroDollar on system login</source>
+        <translation>&amp;Käynnistä PetroDollar kirjautumisen yhteydessä</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AmKoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa AmKoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the PetroDollar client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa PetroDollar-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AmKoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ota yhteys AmKoin-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
+        <source>Connect to the PetroDollar network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ota yhteys PetroDollar-verkkoon SOCKS-proxyn läpi (esimerkiksi kun haluat käyttää Tor-verkkoa).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -910,7 +910,7 @@ Osoite: %4</translation>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa vain pienentää AmKoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Ikkunaa suljettaessa vain pienentää PetroDollar-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,23 +929,23 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AmKoin.</source>
-        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun AmKoin käynnistetään.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PetroDollar.</source>
+        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun PetroDollar käynnistetään.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona amkoin-määrät näytetään</translation>
+        <translation>Yksikkö jona petrodollar-määrät näytetään</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti amkoin-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti petrodollar-määrien näyttämiseen.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AmKoin addresses in the transaction list or not.</source>
-        <translation>Näytetäänkö AmKoin-osoitteet rahansiirrot listassa vai ei.</translation>
+        <source>Whether to show PetroDollar addresses in the transaction list or not.</source>
+        <translation>Näytetäänkö PetroDollar-osoitteet rahansiirrot listassa vai ei.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Osoite: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AmKoin.</source>
-        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun AmKoin käynnistetään.</translation>
+        <source>This setting will take effect after restarting PetroDollar.</source>
+        <translation>Tämä asetus astuu voimaan seuraavalla kerralla, kun PetroDollar käynnistetään.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Osoite: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AmKoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu AmKoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PetroDollar network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu PetroDollar-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1051,12 +1051,12 @@ Osoite: %4</translation>
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>Tililläsi tällä hetkellä olevien AmKoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien PetroDollarien määrä</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Niiden saapuvien rahansiirtojen määrä, joita AmKoin-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
+        <translation>Niiden saapuvien rahansiirtojen määrä, joita PetroDollar-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1069,7 +1069,7 @@ Osoite: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start amkoin: click-to-pay handler</source>
+        <source>Cannot start petrodollar: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1219,8 +1219,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AmKoin-Qt help message to get a list with possible AmKoin command-line options.</source>
-        <translation>Näytä AmKoin-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
+        <source>Show the PetroDollar-Qt help message to get a list with possible PetroDollar command-line options.</source>
+        <translation>Näytä PetroDollar-Qt komentoriviparametrien ohjesivu, jossa on listattuna mahdolliset komentoriviparametrit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>AmKoin - Debug window</source>
-        <translation>AmKoin - Debug ikkuna</translation>
+        <source>PetroDollar - Debug window</source>
+        <translation>PetroDollar - Debug ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AmKoin Core</source>
-        <translation>AmKoin-ydin</translation>
+        <source>PetroDollar Core</source>
+        <translation>PetroDollar-ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,7 +1254,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AmKoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the PetroDollar debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Avaa lokitiedosto nykyisestä data-kansiosta. Tämä voi viedä useamman sekunnin, jos lokitiedosto on iso.</translation>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AmKoin RPC console.</source>
-        <translation>Tervetuloa AmKoin RPC konsoliin.</translation>
+        <source>Welcome to the PetroDollar RPC console.</source>
+        <translation>Tervetuloa PetroDollar RPC konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1290,7 +1290,7 @@ Osoite: %4</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä AmKoineja</translation>
+        <translation>Lähetä PetroDollareja</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1340,7 +1340,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Hyväksy AmKoinien lähettäminen</translation>
+        <translation>Hyväksy PetroDollarien lähettäminen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1360,7 +1360,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0 AmKoinia.</translation>
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 PetroDollaria.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1385,7 +1385,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin amkoineistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja amkoinit on merkitty käytetyksi vain kopiossa.</translation>
+        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin petrodollareistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja petrodollarit on merkitty käytetyksi vain kopiossa.</translation>
     </message>
 </context>
 <context>
@@ -1448,8 +1448,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AmKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Anna AmKoin-osoite (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a PetroDollar address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Anna PetroDollar-osoite (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AmKoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän AmKoin-osoitteen</translation>
+        <source>Sign the message to prove you own this PetroDollar address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän PetroDollar-osoitteen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AmKoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä AmKoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified PetroDollar address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä PetroDollar-osoitteella</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Osoite: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AmKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Anna AmKoin-osoite (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a PetroDollar address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Anna PetroDollar-osoite (esim. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AmKoin signature</source>
-        <translation>Syötä AmKoin-allekirjoitus</translation>
+        <source>Enter PetroDollar signature</source>
+        <translation>Syötä PetroDollar-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,7 +1649,7 @@ Osoite: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The AmKoin developers</source>
+        <source>The PetroDollar developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1955,7 +1955,7 @@ Osoite: %4</translation>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Rahansiirron kohteen AmKoin-osoite</translation>
+        <translation>Rahansiirron kohteen PetroDollar-osoite</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2137,7 +2137,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Lähetä AmKoineja</translation>
+        <translation>Lähetä PetroDollareja</translation>
     </message>
 </context>
 <context>
@@ -2187,8 +2187,8 @@ Osoite: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AmKoin version</source>
-        <translation>AmKoinin versio</translation>
+        <source>PetroDollar version</source>
+        <translation>PetroDollarin versio</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or amkoind</source>
-        <translation>Lähetä käsky palvelimelle tai amkoind:lle</translation>
+        <source>Send command to -server or petrodollard</source>
+        <translation>Lähetä käsky palvelimelle tai petrodollard:lle</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: amkoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: amkoin.conf)</translation>
+        <source>Specify configuration file (default: petrodollar.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: petrodollar.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: amkoind.pid)</source>
-        <translation>Määritä pid-tiedosto (oletus: amkoin.pid)</translation>
+        <source>Specify pid file (default: petrodollard.pid)</source>
+        <translation>Määritä pid-tiedosto (oletus: petrodollar.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,13 +2300,13 @@ Osoite: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=amkoinrpc
+rpcuser=petrodollarrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;PetroDollar Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2322,7 +2322,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AmKoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. PetroDollar is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2367,8 +2367,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AmKoin will not work properly.</source>
-        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! AmKoin ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PetroDollar will not work properly.</source>
+        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! PetroDollar ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AmKoin Wiki for SSL setup instructions)</source>
-        <translation>SSL asetukset (katso AmKoin Wikistä tarkemmat SSL ohjeet)</translation>
+        <source>SSL options: (see the PetroDollar Wiki for SSL setup instructions)</source>
+        <translation>SSL asetukset (katso PetroDollar Wikistä tarkemmat SSL ohjeet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2808,13 +2808,13 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AmKoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version AmKoinista</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PetroDollar</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version PetroDollarista</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AmKoin to complete</source>
-        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä AmKoin uudelleen</translation>
+        <source>Wallet needed to be rewritten: restart PetroDollar to complete</source>
+        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä PetroDollar uudelleen</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2873,8 +2873,8 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AmKoin is probably already running.</source>
-        <translation>Kytkeytyminen %s ei onnistu tällä tietokoneella. AmKoin on todennäköisesti jo ajamassa.</translation>
+        <source>Unable to bind to %s on this computer. PetroDollar is probably already running.</source>
+        <translation>Kytkeytyminen %s ei onnistu tällä tietokoneella. PetroDollar on todennäköisesti jo ajamassa.</translation>
     </message>
     <message>
         <location line="+64"/>

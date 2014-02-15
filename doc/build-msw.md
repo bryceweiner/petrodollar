@@ -173,31 +173,31 @@ f) then from a Windows command prompt:
 
 IF THIS STEP FAILS, REPEAT STEP 1.5!
 
-3.0 Download the AmKoin source code
+3.0 Download the PetroDollar source code
 --------------
 a) From a MSYS type:
 
 		cd /c/
 
-		git clone https://github.com/bryceweiner/amkoin
+		git clone https://github.com/bryceweiner/petrodollar
 
-		cd /c/amkoin/src/leveldb
+		cd /c/petrodollar/src/leveldb
 
 		TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a
 
 b) Switch to the command prompt and type:
 
-		cd C:\amkoin\src
+		cd C:\petrodollar\src
 
 		mingw32-make -f makefile.mingw
 
-		strip amkoind.exe
+		strip petrodollard.exe
 
-CONGRATULATIONS!  YOU'VE JUST COMPILED A HEADLESS VERSION OF AMKOIN!
+CONGRATULATIONS!  YOU'VE JUST COMPILED A HEADLESS VERSION OF PETRODOLLAR!
 
 Now... for the graphical wallet... and we're going to go really fast because you're a f'in pro now.
 
-4. Compiling Qt 5.2.0 libraries and AmKoin-Qt 
+4. Compiling Qt 5.2.0 libraries and PetroDollar-Qt 
 --------------
 4.1 Download and unpack Qt base and tools sources:
 
@@ -231,9 +231,9 @@ g) Type:
 
 	mingw32-make
 
-5. Compiling the AmKoin-Qt client
+5. Compiling the PetroDollar-Qt client
 --------------
-5.1 In Notepad ++, open the file C:\amkoin\amkoin-qt.pro
+5.1 In Notepad ++, open the file C:\petrodollar\petrodollar-qt.pro
 
 a) Go to line 119
 
@@ -245,9 +245,9 @@ b) Add a hashtag to the start of the line so it looks like this:
 
 5.2 In the command prompt type:
 
-	cd\amkoin
+	cd\petrodollar
 
-	qmake amkoin-qt.pro
+	qmake petrodollar-qt.pro
 
 	mingw32-make -f Makefile.Release
 

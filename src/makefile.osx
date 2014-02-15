@@ -3,7 +3,7 @@
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-# Mac OS X makefile for amkoin
+# Mac OS X makefile for petrodollar
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
 #CXX=llvm-g++
@@ -28,7 +28,7 @@ LIBS= -dead_strip
 TESTDEFS = -DTEST_DATA_DIR=$(abspath test/data)
 
 ifdef STATIC
-# Build STATIC if you are redistributing the amkoind binary
+# Build STATIC if you are redistributing the petrodollard binary
 TESTLIBS += \
  $(DEPSDIR)/lib/libboost_unit_test_framework-mt.a
 LIBS += \
@@ -124,10 +124,10 @@ ifneq (${USE_IPV6}, -)
 	DEFS += -DUSE_IPV6=$(USE_IPV6)
 endif
 
-all: amkoind
+all: petrodollard
 
-test check: test_amkoin FORCE
-	./test_amkoin
+test check: test_petrodollar FORCE
+	./test_petrodollar
 
 #
 # LevelDB support
@@ -154,7 +154,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-amkoind: $(OBJS:obj/%=obj/%)
+petrodollard: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) -stdlib=libc++
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -166,11 +166,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_amkoin: $(TESTOBJS) $(filter-out obj/init.o obj/amkoind.o,$(OBJS:obj/%=obj/%))
+test_petrodollar: $(TESTOBJS) $(filter-out obj/init.o obj/petrodollard.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) $(TESTLIBS)
 
 clean:
-	-rm -f amkoind test_amkoin
+	-rm -f petrodollard test_petrodollar
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

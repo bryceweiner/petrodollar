@@ -3,7 +3,7 @@
 // Copyright (c) 2013 Unobtanium developers
 // Copyright (c) 2013-2014 Dr Kimoto Chan
 // Copyright (c) 2013-2100 Franko collective
-// Copyright (c) 2014 AmKoin developers
+// Copyright (c) 2014 PetroDollar developers
 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -70,7 +70,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "AmKoin Signed Message:\n";
+const string strMessageMagic = "PetroDollar Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -759,7 +759,34 @@ int64 GetMinFee(const CTransaction& tx, bool fAllowFree, enum GetMinFee_mode mod
     int64 nBaseFee = (mode == GMF_RELAY) ? tx.nMinRelayTxFee : tx.nMinTxFee;
 
     unsigned int nBytes = ::GetSerializeSize(tx, SER_NETWORK, PROTOCOL_VERSION);
+
     int64 nMinFee = (1 + (int64)nBytes / 1000) * nBaseFee;
+
+
+    if ((nBestHeight >= 43201) && (nBestHeight <= 568800))
+    {
+        nMinFee = GetValueOut(tx) * 0.01429;
+    }
+    if ((nBestHeight >= 568801) && (nBestHeight <= 1090440))
+    {
+        nMinFee = GetValueOut(tx) * 0.02858;
+    }
+    if ((nBestHeight >= 1090441) && (nBestHeight <= 1620000))
+    {
+        nMinFee = GetValueOut(tx) * 0.05716;
+    }
+    if ((nBestHeight >= 1620001) && (nBestHeight <= 2671200))
+    {
+        nMinFee = GetValueOut(tx) * 0.11432;
+    }
+    if ((nBestHeight >= 2671201) && (nBestHeight <= 2145600))
+    {
+        nMinFee = GetValueOut(tx) * 0.12864;
+    }
+    if (nBestHeight >= 2145601)
+    {
+        nMinFee = GetValueOut(tx) * 0.15728;
+    }
 
     if (fAllowFree)
     {
@@ -1249,17 +1276,46 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
     return pblock->GetHash();
 }
 
-static const int64 nStartSubsidy = 2300; //1 * COIN;
-static const int64 nMinSubsidy = 2300; //1 * COIN;
+static const int64 nStartSubsidy = 1412.90078704 * COIN; //1 * COIN;
+static const int64 nBaseSubsidy = 30.16333293 * COIN;
+static const int64 nMinSubsidy = 0.94260415 * COIN; //1 * COIN;
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    return nStartSubsidy + nFees;
+    int64 nSubsidy = nStartSubsidy;
+    if ((nHeight >= 43201) && (nHeight <= 568800))
+    {
+        nSubsidy = nBaseSubsidy;
+    }
+    if ((nHeight >= 568801) && (nHeight <= 1090440))
+    {
+        nSubsidy = nBaseSubsidy / 2;
+
+    }
+    if ((nHeight >= 1090441) && (nHeight <= 1620000))
+    {
+        nSubsidy = nBaseSubsidy / 4;
+
+    }
+    if ((nHeight >= 1620001) && (nHeight <= 2671200))
+    {
+        nSubsidy = nBaseSubsidy / 8;
+
+    }
+    if ((nHeight >= 2671201) && (nHeight <= 2145600))
+    {
+        nSubsidy = nBaseSubsidy / 16;
+    }
+    if (nHeight >= 2145601)
+    {
+        nSubsidy = nBaseSubsidy / 32;
+    }
+    return nSubsidy;
 }
 
 static const int64 nTargetTimespan = 30 * 60; // 1 hour 
-static const int64 nTargetSpacing = 420; // 7 minutes
-static const int64 nInterval = nTargetTimespan / nTargetSpacing; // ~4 blocks
+static const int64 nTargetSpacing = 300; // 5 minutes
+static const int64 nInterval = nTargetTimespan / nTargetSpacing; // ~20 blocks
 
 //
 // minimum amount of work that could possibly be required nTime after
@@ -1389,7 +1445,7 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
                 if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
                 PastRateAdjustmentRatio = double(PastRateTargetSeconds) / double(PastRateActualSeconds);
                 }
-                EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass)/double(28.2)), -1.228));
+                EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass)/double(144)), -1.228));
                 EventHorizonDeviationFast = EventHorizonDeviation;
                 EventHorizonDeviationSlow = 1 / EventHorizonDeviation;
                 
@@ -1418,7 +1474,7 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
 
 unsigned int static GetNextWorkRequired_V2(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
-        static const int64 BlocksTargetSpacing = 7 * 60; // 30 seconds
+        static const int64 BlocksTargetSpacing = 5 * 60; // 30 seconds
         unsigned int TimeDaySeconds = 60 * 60 * 24;
         int64 PastSecondsMin = TimeDaySeconds * 0.23;
         int64 PastSecondsMax = TimeDaySeconds * 1;
@@ -4668,7 +4724,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("AmKoinMiner:\n");
+    printf("PetroDollarMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4677,7 +4733,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("AmKoinMiner : generated block is stale");
+            return error("PetroDollarMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4691,7 +4747,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("AmKoinMiner : ProcessBlock, block not accepted");
+            return error("PetroDollarMiner : ProcessBlock, block not accepted");
     }
 
     return true;
@@ -4699,7 +4755,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
 
 void static BitcoinMiner(CWallet *pwallet)
 {
-    printf("AmKoinMiner started\n");
+    printf("PetroDollarMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("bitcoin-miner");
 
@@ -4727,7 +4783,7 @@ void static BitcoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running AmKoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running PetroDollarMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4838,7 +4894,7 @@ void static BitcoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("AmKoinMiner terminated\n");
+        printf("PetroDollarMiner terminated\n");
         throw;
     }
 }

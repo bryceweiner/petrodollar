@@ -1,4 +1,4 @@
-AmKoin 0.9.9 [AmK]
+PetroDollar 0.9.9 [AmK]
 ------------------
 Proof of Work SHA256D Cryptocurrency based on Unobtanium 0.9.x (Bitcoin 0.8.99)
 
@@ -38,7 +38,7 @@ Default Port = 28972
 
 RPC Port = 27982
 
-amkoin.conf
+petrodollar.conf
 -----------
 
     server=1

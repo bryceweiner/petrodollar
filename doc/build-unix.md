@@ -8,13 +8,13 @@ Build instructions assume a CLEAN DEVELOPMENT ENVIRONMENT FOR COMPILING.  This i
 
 	sudo apt-get install git build-essential libssl-dev libboost-all-dev libdb-dev libdb++-dev libminiupnpc-dev
 
-	git clone http://github.com/bryceweiner/amkoin
+	git clone http://github.com/bryceweiner/petrodollar
 
-	cd amkoin/src
+	cd petrodollar/src
 
 	make clean
 
-	cd amkoin/src/leveldb
+	cd petrodollar/src/leveldb
 
 	sudo sh ./build_detect_platform build_config.mk .
 
@@ -24,4 +24,4 @@ Build instructions assume a CLEAN DEVELOPMENT ENVIRONMENT FOR COMPILING.  This i
 
 	make -f makefile.unix
 
-	strip amkoind
+	strip petrodollard

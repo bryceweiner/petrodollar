@@ -36,9 +36,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("AmK");
-    case mBTC: return QString("mAmK");
-    case uBTC: return QString::fromUtf8("pAmK");
+    case BTC: return QString("p$");
+    case mBTC: return QString("mp$");
+    case uBTC: return QString::fromUtf8("µp$");
     //case nBTC: return QString::fromUtf8("ng/Un"); //single units of Un are 'nanograms'
     default: return QString("???");
     }
@@ -48,10 +48,10 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("AmK (1 : 1)");
-    case mBTC: return QString("mAmK (1 / 1,000)");
-    case uBTC: return QString("pAmK (1 / 1,000,000)");
-    //case nBTC: return QString("Nanogramweight AmKoin (1 / 1,000,000,000) STILL IN RESEARCH PHASE");
+    case BTC: return QString("p$ (1 : 1)");
+    case mBTC: return QString("mp$ (1 / 1,000)");
+    case uBTC: return QString("µp$ (1 / 1,000,000)");
+    //case nBTC: return QString("Nanogramweight PetroDollar (1 / 1,000,000,000) STILL IN RESEARCH PHASE");
     default: return QString("???");
     }
 }

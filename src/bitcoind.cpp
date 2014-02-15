@@ -35,7 +35,7 @@ bool AppInit(int argc, char* argv[])
         //
         // Parameters
         //
-        // If Qt is used, parameters/amkoin.conf are parsed in qt/bitcoin.cpp's main()
+        // If Qt is used, parameters/petrodollar.conf are parsed in qt/bitcoin.cpp's main()
         ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
@@ -46,13 +46,13 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to amkoind / RPC client
-            std::string strUsage = _("AmKoin version") + " " + FormatFullVersion() + "\n\n" +
+            // First part of help message is specific to petrodollard / RPC client
+            std::string strUsage = _("PetroDollar version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  amkoind [options]                     " + "\n" +
-                  "  amkoind [options] <command> [params]  " + _("Send command to -server or amkoind") + "\n" +
-                  "  amkoind [options] help                " + _("List commands") + "\n" +
-                  "  amkoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  petrodollard [options]                     " + "\n" +
+                  "  petrodollard [options] <command> [params]  " + _("Send command to -server or petrodollard") + "\n" +
+                  "  petrodollard [options] help                " + _("List commands") + "\n" +
+                  "  petrodollard [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -62,7 +62,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "amkoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "petrodollar:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
     bool fRet = false;
     fHaveGUI = false;
 
-    // Connect amkoind signal handlers
+    // Connect petrodollard signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);

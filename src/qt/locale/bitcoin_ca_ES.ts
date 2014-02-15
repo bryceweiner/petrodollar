@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AmKoin</source>
-        <translation>Sobre AmKoin</translation>
+        <source>About PetroDollar</source>
+        <translation>Sobre PetroDollar</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AmKoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AmKoin&lt;/b&gt; versió</translation>
+        <source>&lt;b&gt;PetroDollar&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;PetroDollar&lt;/b&gt; versió</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The AmKoin developers</source>
+        <source>The PetroDollar developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AmKoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces AmKoin per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
+        <source>These are your PetroDollar addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces PetroDollar per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AmKoin address</source>
-        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça AmKoin</translation>
+        <source>Sign a message to prove you own a PetroDollar address</source>
+        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça PetroDollar</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AmKoin address</source>
-        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça AmKoin específica</translation>
+        <source>Verify a message to ensure it was signed with a specified PetroDollar address</source>
+        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça PetroDollar específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,8 +117,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AmKoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són la seva adreça de AmKoin per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
+        <source>These are your PetroDollar addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són la seva adreça de PetroDollar per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>AmKoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your amkoins from being stolen by malware infecting your computer.</source>
-        <translation>AmKoin es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus amkoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
+        <source>PetroDollar will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your petrodollars from being stolen by malware infecting your computer.</source>
+        <translation>PetroDollar es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus petrodollars de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AmKoin</source>
-        <translation>Mostra informació sobre AmKoin</translation>
+        <source>Show information about PetroDollar</source>
+        <translation>Mostra informació sobre PetroDollar</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AmKoin address</source>
-        <translation>Enviar monedes a una adreça AmKoin</translation>
+        <source>Send coins to a PetroDollar address</source>
+        <translation>Enviar monedes a una adreça PetroDollar</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AmKoin</source>
-        <translation>Modificar les opcions de configuració per amkoin</translation>
+        <source>Modify configuration options for PetroDollar</source>
+        <translation>Modificar les opcions de configuració per petrodollar</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AmKoin</source>
-        <translation>AmKoin</translation>
+        <source>PetroDollar</source>
+        <translation>PetroDollar</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AmKoin</source>
-        <translation>&amp;Sobre AmKoin</translation>
+        <source>&amp;About PetroDollar</source>
+        <translation>&amp;Sobre PetroDollar</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,13 +495,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AmKoin addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de AmKoin per provar que les poseeixes</translation>
+        <source>Sign messages with your PetroDollar addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de PetroDollar per provar que les poseeixes</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AmKoin addresses</source>
-        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça AmKoin específica.</translation>
+        <source>Verify messages to ensure they were signed with specified PetroDollar addresses</source>
+        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça PetroDollar específica.</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>AmKoin client</source>
-        <translation>Client AmKoin</translation>
+        <source>PetroDollar client</source>
+        <translation>Client PetroDollar</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AmKoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa AmKoin</numerusform><numerusform>%n connexions actives a la xarxa AmKoin</numerusform></translation>
+        <source>%n active connection(s) to PetroDollar network</source>
+        <translation><numerusform>%n connexió activa a la xarxa PetroDollar</numerusform><numerusform>%n connexions actives a la xarxa PetroDollar</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,8 +647,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AmKoin address or malformed URI parameters.</source>
-        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça AmKoin invalida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid PetroDollar address or malformed URI parameters.</source>
+        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça PetroDollar invalida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -662,8 +662,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AmKoin can no longer continue safely and will quit.</source>
-        <translation>Ha tingut lloc un error fatal. AmKoin no pot continuar executant-se de manera segura i es tancará.</translation>
+        <source>A fatal error occurred. PetroDollar can no longer continue safely and will quit.</source>
+        <translation>Ha tingut lloc un error fatal. PetroDollar no pot continuar executant-se de manera segura i es tancará.</translation>
     </message>
 </context>
 <context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AmKoin address.</source>
-        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça AmKoin valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid PetroDollar address.</source>
+        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça PetroDollar valida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AmKoin-Qt</source>
-        <translation>AmKoin-Qt</translation>
+        <source>PetroDollar-Qt</source>
+        <translation>PetroDollar-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AmKoin after logging in to the system.</source>
-        <translation>Iniciar automàticament AmKoin després de l&apos;inici de sessió del sistema.</translation>
+        <source>Automatically start PetroDollar after logging in to the system.</source>
+        <translation>Iniciar automàticament PetroDollar després de l&apos;inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AmKoin on system login</source>
-        <translation>&amp;Iniciar AmKoin al inici de sessió del sistema.</translation>
+        <source>&amp;Start PetroDollar on system login</source>
+        <translation>&amp;Iniciar PetroDollar al inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AmKoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir el port del client de AmKoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
+        <source>Automatically open the PetroDollar client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir el port del client de PetroDollar al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AmKoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connectar a la xarxa AmKoin a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
+        <source>Connect to the PetroDollar network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connectar a la xarxa PetroDollar a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AmKoin.</source>
-        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï AmKoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PetroDollar.</source>
+        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï PetroDollar.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -935,8 +935,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AmKoin addresses in the transaction list or not.</source>
-        <translation>Mostrar adreces AmKoin als llistats de transaccions o no.</translation>
+        <source>Whether to show PetroDollar addresses in the transaction list or not.</source>
+        <translation>Mostrar adreces PetroDollar als llistats de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,8 +987,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AmKoin.</source>
-        <translation>Aquesta configuració tindrà efecte un cop es reiniciï AmKoin.</translation>
+        <source>This setting will take effect after restarting PetroDollar.</source>
+        <translation>Aquesta configuració tindrà efecte un cop es reiniciï PetroDollar.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AmKoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa AmKoin un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PetroDollar network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa PetroDollar un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1060,8 +1060,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start amkoin: click-to-pay handler</source>
-        <translation>No es pot iniciar amkoin: manejador clicla-per-pagar</translation>
+        <source>Cannot start petrodollar: click-to-pay handler</source>
+        <translation>No es pot iniciar petrodollar: manejador clicla-per-pagar</translation>
     </message>
 </context>
 <context>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AmKoin-Qt help message to get a list with possible AmKoin command-line options.</source>
-        <translation>Mostrar el missatge d&apos;ajuda de AmKoin-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de AmKoin.</translation>
+        <source>Show the PetroDollar-Qt help message to get a list with possible PetroDollar command-line options.</source>
+        <translation>Mostrar el missatge d&apos;ajuda de PetroDollar-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de PetroDollar.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>AmKoin - Debug window</source>
-        <translation>AmKoin -Finestra de debug</translation>
+        <source>PetroDollar - Debug window</source>
+        <translation>PetroDollar -Finestra de debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AmKoin Core</source>
-        <translation>Nucli de AmKoin</translation>
+        <source>PetroDollar Core</source>
+        <translation>Nucli de PetroDollar</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,8 +1245,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AmKoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obrir el dietari de debug de AmKoin del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
+        <source>Open the PetroDollar debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obrir el dietari de debug de PetroDollar del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AmKoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de AmKoin</translation>
+        <source>Welcome to the PetroDollar RPC console.</source>
+        <translation>Benvingut a la consola RPC de PetroDollar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AmKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introdueixi una adreça de AmKoin (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a PetroDollar address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introdueixi una adreça de PetroDollar (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AmKoin address</source>
-        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça AmKoin</translation>
+        <source>Sign the message to prove you own this PetroDollar address</source>
+        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça PetroDollar</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1540,8 +1540,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AmKoin address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça AmKoin específica</translation>
+        <source>Verify the message to ensure it was signed with the specified PetroDollar address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça PetroDollar específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AmKoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introdueixi una adreça de AmKoin (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a PetroDollar address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introdueixi una adreça de PetroDollar (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,8 +1566,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AmKoin signature</source>
-        <translation>Introduïr una clau AmKoin</translation>
+        <source>Enter PetroDollar signature</source>
+        <translation>Introduïr una clau PetroDollar</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The AmKoin developers</source>
+        <source>The PetroDollar developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AmKoin version</source>
-        <translation>Versió de AmKoin</translation>
+        <source>PetroDollar version</source>
+        <translation>Versió de PetroDollar</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or amkoind</source>
-        <translation>Enviar comanda a -servidor o amkoind</translation>
+        <source>Send command to -server or petrodollard</source>
+        <translation>Enviar comanda a -servidor o petrodollard</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,13 +2208,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: amkoin.conf)</source>
-        <translation>Especificat arxiu de configuració (per defecte: amkoin.conf)</translation>
+        <source>Specify configuration file (default: petrodollar.conf)</source>
+        <translation>Especificat arxiu de configuració (per defecte: petrodollar.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: amkoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: amkoind.pid)</translation>
+        <source>Specify pid file (default: petrodollard.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: petrodollard.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2291,15 +2291,15 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=amkoinrpc
+rpcuser=petrodollarrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;PetroDollar Alert&quot; admin@foo.com
 </source>
-        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=amkoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.com</translation>
+        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=petrodollarrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;PetroDollar Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2313,8 +2313,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AmKoin is probably already running.</source>
-        <translation>No es pot bloquejar el directori de dades %s. Probablement AmKoin ja estigui en execució.</translation>
+        <source>Cannot obtain a lock on data directory %s. PetroDollar is probably already running.</source>
+        <translation>No es pot bloquejar el directori de dades %s. Probablement PetroDollar ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2358,8 +2358,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AmKoin will not work properly.</source>
-        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, AmKoin no funcionará de manera apropiada.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PetroDollar will not work properly.</source>
+        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, PetroDollar no funcionará de manera apropiada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2608,8 +2608,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AmKoin Wiki for SSL setup instructions)</source>
-        <translation>Opcions SSL: (veure la Wiki de AmKoin per a instruccions de configuració SSL)</translation>
+        <source>SSL options: (see the PetroDollar Wiki for SSL setup instructions)</source>
+        <translation>Opcions SSL: (veure la Wiki de PetroDollar per a instruccions de configuració SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2798,13 +2798,13 @@ for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AmKoin</source>
-        <translation>Error carregant wallet.dat: El moneder requereix una versió de AmKoin més moderna</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PetroDollar</source>
+        <translation>Error carregant wallet.dat: El moneder requereix una versió de PetroDollar més moderna</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AmKoin to complete</source>
-        <translation>El moneder necesita ser re-escrit: re-inicia AmKoin per a completar la tasca</translation>
+        <source>Wallet needed to be rewritten: restart PetroDollar to complete</source>
+        <translation>El moneder necesita ser re-escrit: re-inicia PetroDollar per a completar la tasca</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2863,8 +2863,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AmKoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AmKoin is probably already running.</source>
-        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement AmKoin ja estigui en execució.</translation>
+        <source>Unable to bind to %s on this computer. PetroDollar is probably already running.</source>
+        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement PetroDollar ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+64"/>
