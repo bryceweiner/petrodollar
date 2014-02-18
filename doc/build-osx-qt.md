@@ -22,11 +22,14 @@ The installation of the actual dependencies is covered in the Instructions secti
 
 Instructions
 ------------
+#### To install Homebrew
+
+        ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 #### Install dependencies using Homebrew
 
-        brew install autoconf automake berkeley-db4 boost miniupnpc openssl pkg-config protobuf qt qrcode
+        brew install autoconf automake berkeley-db4 boost miniupnpc openssl pkg-config protobuf qt qrencode python
 
 Note: After you have installed the dependencies, you should check that the Homebrew installed version of OpenSSL is the one available for compilation. You can check this by typing
 
@@ -80,7 +83,8 @@ If you have an older machine, feel free to set the 'RELEASE=1' flag which add so
 
 Generate a Qt Makefile
 
-        qmake USE_UPNP=1 USE_QRCODE=1 amkoin-qt.pro
+        qmake USE_UPNP=1 USE_QRCODE=1 BOOST_LIB_PATH=/usr/local/lib BOOST_INCLUDE_PATH=/usr/local/include BDB_LIB_PATH=/usr/local/opt/berkeley-db4/lib BDB_INCLUDE_PATH=/usr/local/opt/berkeley-db4/include amkoin-qt.pro
+
 
 Run the compilation
 
