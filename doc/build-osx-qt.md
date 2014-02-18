@@ -12,6 +12,8 @@ Preparation
 
 You need to install XCode with all the options checked so that the compiler and everything is available in /usr not just /Developer. XCode is available from the Mac App Store or from https://developer.apple.com/xcode/. If you install Xcode 4.3 or later, you'll need to install its command line tools. This can be done in `Xcode > Preferences > Downloads > Components` and generally must be re-done or updated every time Xcode is updated.
 
+You will need to install [XQuartz](https://xquartz.macosforge.org). As of OS X Mountain Lion, Apple no longer installs the X11.app by default, which was previously needed to run any X11 applications. A full explanation can be found in the Apple knowledge base article [About X11 and OS X](http://support.apple.com/kb/HT5293)
+
 There's an assumption that you already have `git` installed, as well. If not, it's the path of least resistance to install [Github for Mac](https://mac.github.com/) (OS X 10.7+) or [Git for OS X](https://code.google.com/p/git-osx-installer/). It is also available via Homebrew or MacPorts.
 
 You will also need to install [Homebrew](http://brew.sh) or [MacPorts](https://www.macports.org/) in order to install library dependencies. It's largely a religious decision which to choose, but, as of December 2012, MacPorts is a little easier because you can just install the dependencies immediately - no other work required. If you're unsure, read the instructions through first in order to assess what you want to do. Homebrew is a little more popular among those newer to OS X.
@@ -84,7 +86,10 @@ If you have an older machine, feel free to set the 'RELEASE=1' flag which add so
 Generate a Qt Makefile
 
         qmake USE_UPNP=1 USE_QRCODE=1 BOOST_LIB_PATH=/usr/local/lib BOOST_INCLUDE_PATH=/usr/local/include BDB_LIB_PATH=/usr/local/opt/berkeley-db4/lib BDB_INCLUDE_PATH=/usr/local/opt/berkeley-db4/include amkoin-qt.pro
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4e01344... Add XQuartz requirement. Fix qmake command to specifically use some Homebrew paths
 
 Run the compilation
 
