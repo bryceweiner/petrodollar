@@ -1,7 +1,7 @@
-AmKoin-Qt build instructions for Mac OS X
+PetroDollar-Qt build instructions for Mac OS X
 ==========================================
 
-This document build and configuration instructions for building AmKoin-Qt (Qt4 GUI for AmKoin) for OS X.  A amkoind binary is not included in the AmKoin-Qt.app bundle but can be built using the instructions in doc/build-osx.md.
+This document build and configuration instructions for building PetroDollar-Qt (Qt4 GUI for PetroDollar) for OS X.  A petrodollard binary is not included in the PetroDollar-Qt.app bundle but can be built using the instructions in doc/build-osx.md.
 
 Tested on OS X 10.5 through 10.9 on Intel processors only. PPC is not supported because it is big-endian.
 
@@ -55,9 +55,9 @@ For Snow Leopard (which uses [Python 2.6](http://www.python.org/download/release
         
         easy_install argparse
 
-### Modify amkoin-qt.pro
+### Modify petrodollar-qt.pro
 
-Modify amkoin-qt.pro since it has options set to build for a Windows environment.
+Modify petrodollar-qt.pro since it has options set to build for a Windows environment.
 
 Comment out the follow lines by adding a # in front of them.
 
@@ -85,7 +85,7 @@ If you have an older machine, feel free to set the 'RELEASE=1' flag which add so
 
 Generate a Qt Makefile
 
-        qmake USE_UPNP=1 USE_QRCODE=1 BOOST_LIB_PATH=/usr/local/lib BOOST_INCLUDE_PATH=/usr/local/include BDB_LIB_PATH=/usr/local/opt/berkeley-db4/lib BDB_INCLUDE_PATH=/usr/local/opt/berkeley-db4/include amkoin-qt.pro
+        qmake USE_UPNP=1 USE_QRCODE=1 BOOST_LIB_PATH=/usr/local/lib BOOST_INCLUDE_PATH=/usr/local/include BDB_LIB_PATH=/usr/local/opt/berkeley-db4/lib BDB_INCLUDE_PATH=/usr/local/opt/berkeley-db4/include petrodollar-qt.pro
 <<<<<<< HEAD
 
 =======
@@ -102,16 +102,16 @@ During the process, the disk image window will pop up briefly where the settings
         export QTDIR=/usr/local/opt/qt  # needed to find translations/qt_*.qm files
         T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
         /usr/local/bin/python share/qt/clean_mac_info_plist.py
-        /usr/local/bin/python contrib/macdeploy/macdeployqtplus AmKoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
+        /usr/local/bin/python contrib/macdeploy/macdeployqtplus PetroDollar-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
 You may receive this error:
 
-       112:116: execution error: Finder got an error: Can’t get disk "AmKoin-Qt". (-1728)
+       112:116: execution error: Finder got an error: Can’t get disk "PetroDollar-Qt". (-1728)
        Error running osascript.
 
 If you do, remove the temporarily created dmg file and run the last command again
 
-       rm AmKoin-Qt.temp.dmg
+       rm PetroDollar-Qt.temp.dmg
 
-When finished, it will produce a beautifully packaged Apple Disk Image `AmKoin-Qt.dmg`.
+When finished, it will produce a beautifully packaged Apple Disk Image `PetroDollar-Qt.dmg`.
 

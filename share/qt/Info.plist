@@ -7,7 +7,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>$VERSION, Copyright © 2013-$YEAR The AmKoin developers</string>
+	<string>$VERSION, Copyright © 2013-$YEAR The PetroDollar developers</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$VERSION</string>
 	<key>CFBundleVersion</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>AmKoin-Qt</string>
+	<string>PetroDollar-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>io.amkoin.AmKoin-Qt</string>
+	<string>io.petrodollar.PetroDollar-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>iu.amkoin.AmKoinPayment</string>
+            <string>iu.petrodollar.AmKoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>amkoin</string>
+              <string>petrodollar</string>
             </array>
           </dict>
         </array>
