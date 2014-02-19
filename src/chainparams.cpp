@@ -18,8 +18,6 @@ unsigned int pnSeed[] =
 {
     0x12345678
 };
-    bool fRegTest = GetBoolArg("-regtest", false);
-    bool fTestNet = GetBoolArg("-testnet", false);
 
 class CMainParams : public CChainParams {
 public:
@@ -212,6 +210,8 @@ void SelectParams(CChainParams::Network network) {
 }
 
 bool SelectParamsFromCommandLine() {
+    bool fRegTest = GetBoolArg("-regtest", false);
+    bool fTestNet = GetBoolArg("-testnet", false);
 
     if (fTestNet && fRegTest) {
         return false;
