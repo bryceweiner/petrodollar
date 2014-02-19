@@ -73,7 +73,7 @@ BitcoinGUI::BitcoinGUI(bool fIsTestnet, QWidget *parent) :
 #ifndef Q_OS_MAC
     if (!fIsTestnet)
     {
-        setWindowTitle(tr("PetroDollar") + " - " + tr("Storage Vault"));
+        setWindowTitle(tr("PetroDollar") + " - " + tr("Storage Reserves"));
         QApplication::setWindowIcon(QIcon(":icons/bitcoin"));
         setWindowIcon(QIcon(":icons/bitcoin"));
     }
@@ -187,14 +187,14 @@ void BitcoinGUI::createActions(bool fIsTestnet)
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Transfer PetroDollar"), this);
-    sendCoinsAction->setStatusTip(tr("Transfer AmK to another Storage Vault"));
+    sendCoinsAction->setStatusTip(tr("Transfer PetroDollars to another Storage Reserves"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
 
     receiveCoinsAction = new QAction(QIcon(":/icons/receiving_addresses"), tr("&Collect PetroDollar"), this);
-    receiveCoinsAction->setStatusTip(tr("Display your Storage Vault IDs for incoming transfers"));
+    receiveCoinsAction->setStatusTip(tr("Display your Storage Reserves IDs for incoming transfers"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
     receiveCoinsAction->setCheckable(true);
     receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
@@ -207,8 +207,8 @@ void BitcoinGUI::createActions(bool fIsTestnet)
     historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_4));
     tabGroup->addAction(historyAction);
 
-    addressBookAction = new QAction(QIcon(":/icons/address-book"), tr("&Vault Lookup"), this);
-    addressBookAction->setStatusTip(tr("List of all Storage Vaults you've interacted with"));
+    addressBookAction = new QAction(QIcon(":/icons/address-book"), tr("&Reserves Lookup"), this);
+    addressBookAction->setStatusTip(tr("List of all Storage Reservess you've interacted with"));
     addressBookAction->setToolTip(addressBookAction->statusTip());
     addressBookAction->setCheckable(true);
     addressBookAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
@@ -247,13 +247,13 @@ void BitcoinGUI::createActions(bool fIsTestnet)
         toggleHideAction = new QAction(QIcon(":/icons/bitcoin_testnet"), tr("&Show / Hide"), this);
     toggleHideAction->setStatusTip(tr("Show or hide the main Window"));
 
-    encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Vault..."), this);
-    encryptWalletAction->setStatusTip(tr("Encrypt the private keys that belong to your Storage Vault"));
+    encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Reserves..."), this);
+    encryptWalletAction->setStatusTip(tr("Encrypt the private keys that belong to your Storage Reserves"));
     encryptWalletAction->setCheckable(true);
-    backupWalletAction = new QAction(QIcon(":/icons/filesave"), tr("&Backup Vault..."), this);
-    backupWalletAction->setStatusTip(tr("Backup Storage Vault for transfer to another location"));
+    backupWalletAction = new QAction(QIcon(":/icons/filesave"), tr("&Backup Reserves..."), this);
+    backupWalletAction->setStatusTip(tr("Backup Storage Reserves for transfer to another location"));
     changePassphraseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passphrase..."), this);
-    changePassphraseAction->setStatusTip(tr("Change the passphrase used for Vault encryption"));
+    changePassphraseAction->setStatusTip(tr("Change the passphrase used for Reserves encryption"));
     signMessageAction = new QAction(QIcon(":/icons/edit"), tr("Sign &message..."), this);
     signMessageAction->setStatusTip(tr("Sign messages with your PetroDollar addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
